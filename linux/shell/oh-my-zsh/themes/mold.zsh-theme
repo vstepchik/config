@@ -5,7 +5,8 @@ PROMPT='%{$fg[$NCOLOR]%}%~%{$reset_color%}\
 $(git_prompt_info) \
 %(?:%{$fg[green]%}:%{$fg[red]%})%(!.#.»)%{$reset_color%} '
 PROMPT2='%{$fg[red]%}\ %{$reset_color%}'
-RPS1='${return_code}'
+# commented-out the PRS1 as it sometimes causes issues in terminal rendering
+#RPS1='${return_code}'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[yellow]%}("
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[green]%}○%{$reset_color%}"
