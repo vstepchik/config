@@ -4,7 +4,8 @@ local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
 PROMPT='%{$fg[$NCOLOR]%}%~%{$reset_color%}\
 $(git_prompt_info) \
 %(?:%{$fg[green]%}:%{$fg[red]%})%(!.#.»)%{$reset_color%} '
-PROMPT2='%{$fg[red]%}\ %{$reset_color%}'
+
+PROMPT2='%{$fg[yellow]%}…%{$reset_color%}'
 # commented-out the PRS1 as it sometimes causes issues in terminal rendering
 #RPS1='${return_code}'
 
