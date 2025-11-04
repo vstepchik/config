@@ -23,11 +23,11 @@ function pngpress() {
 }
 
 function genpass() {
-  cat /dev/urandom | tr -dc '[:alnum:][:punct:]' | fold -w ${1:-20} | head -n 1 | tee /dev/tty | tr -d "\n" | xclip -sel clip
+  cat /dev/urandom | LC_CTYPE=C tr -dc '[:alnum:][:punct:]' | fold -w ${1:-20} | head -n 1 | tee /dev/tty | { command -v pbcopy >/dev/null 2>&1 && pbcopy || xclip -sel clip; }
 }
 
 function objectid() {
-  cat /dev/urandom | tr -dc 'a-f0-9' | fold -w 24 | head -n 1 | tee /dev/tty | tr -d "\n" | xclip -sel clip
+  cat /dev/urandom | LC_CTYPE=C tr -dc 'a-f0-9' | fold -w 24 | head -n 1 | tee /dev/tty | tr -d "\n" | { command -v pbcopy >/dev/null 2>&1 && pbcopy || xclip -sel clip; }
 }
 
 axel_insist() {
