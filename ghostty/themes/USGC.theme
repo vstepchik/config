@@ -1,0 +1,47 @@
+# Ghostty Color Scheme: USGC-RETICLE-IT
+# Converted from iTerm2 plist
+
+# Background & Foreground
+background = #000000
+foreground = #459A65
+
+# Cursor
+cursor-color = #868D96
+cursor-text = #FFFFFF
+
+# Selection
+selection-background = #01057C
+selection-foreground = #F6C443
+
+# ANSI Palette
+# Black
+palette = 0=#262626
+palette = 8=#484747
+
+# Red
+palette = 1=#CD0400
+palette = 9=#CD0400
+
+# Green
+palette = 2=#F6C443
+palette = 10=#EBBC40
+
+# Yellow
+palette = 3=#F6C443
+palette = 11=#F6C443
+
+# Blue
+palette = 4=#6B40EF
+palette = 12=#EE7B3A
+
+# Magenta
+palette = 5=#EA3D8D
+palette = 13=#EA3D8D
+
+# Cyan
+palette = 6=#3477F6
+palette = 14=#3376F6
+
+# White
+palette = 7=#FFFFFF
+palette = 15=#FEFEFE
