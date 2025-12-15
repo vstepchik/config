@@ -1,0 +1,47 @@
+# Ghostty Theme generated from the sugraphics colorscale logo by Neil Pachal
+# Looks nice with https://github.com/ahatem/IoskeleyMono
+
+# Background & Foreground
+# Mapped to the darkest grey/black and lightest grey from the SVG
+background = #231f20
+foreground = #e6e7e8
+
+# Cursor & Selection
+# Using the bright magenta for visibility and dark grey for selection
+cursor-color = #ec008c
+selection-background = #414042
+selection-foreground = #e6e7e8
+
+# Palette
+
+# Black / Bright Black (Greys from the SVG ramp)
+palette = 0=#414042
+palette = 8=#808285
+
+# Red / Bright Red
+palette = 1=#c22032
+palette = 9=#ed1c24
+
+# Green / Bright Green
+palette = 2=#658d3c
+palette = 10=#00a651
+
+# Yellow / Bright Yellow
+palette = 3=#f7b718
+palette = 11=#fff200
+
+# Blue / Bright Blue
+palette = 4=#2e3192
+palette = 12=#184898
+
+# Magenta / Bright Magenta
+palette = 5=#613393
+palette = 13=#ec008c
+
+# Cyan / Bright Cyan
+palette = 6=#007a61
+palette = 14=#00aeef
+
+# White / Bright White
+palette = 7=#bcbec0
+palette = 15=#ffffff
