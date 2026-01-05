@@ -2,7 +2,7 @@ if [[ "$UID" -eq 0 ]]; then NCOLOR="red"; else NCOLOR="magenta"; fi
 
 PROMPT='%{$fg[$NCOLOR]%}%~%{$reset_color%}\
 $(git_prompt_info) \
-%(?..%{$fg[red]%}↵%? )\
+%(?..%{$fg[red]%}⏎%? )\
 %(?:%{$fg[green]%}»:%{$fg[red]%}»)%{$reset_color%} '
 
 # Secondary prompt (PS2) - the prompt shown when the shell expects more input to complete a command
