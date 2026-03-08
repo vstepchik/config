@@ -22,3 +22,7 @@ axel_insist() {
     sleep 1
   done
 }
+
+upscale_wallpapers() {
+  find . -type f \( -iname '*.jpg' -or -iname '*.png' \) -exec sh -c 'HEIGHT=$(identify -format "%h" "$0"); if [ $HEIGHT -lt 1620 ]; then waifu2x-ncnn-vulkan -i "$0" -o "$0" -n 2 -s 2; fi' {} \;
+}
